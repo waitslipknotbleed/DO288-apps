@@ -18,7 +18,8 @@ DATE=`date +%F`
 
 echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
-echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+#echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+echo "Helloooo guy" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
